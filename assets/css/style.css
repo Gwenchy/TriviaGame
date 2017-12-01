@@ -1,0 +1,129 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: auto;
+    
+}
+
+body {
+    color: white;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    color: white;
+}
+
+.title {
+    font-size: 100px;
+    font-style: bold;
+}
+
+.game-board h1 {
+    line-height: 600px;
+}
+
+
+.game-board {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+}
+
+.timer {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+.question {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+.answer {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+.results {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+.wrong-answer {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+} 
+.correct-answer {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.question {
+    font-size: 24px;
+}
+.wrong-answer {
+    font-size: 24px;
+}
+.correct-answer {
+    font-size: 24px;
+}
+
+
+.answer {
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.answer:hover {
+    background: black;
+    cursor: pointer;
+}
+.start-button {
+    font-family: 'Special Elite', cursive;
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    margin: -20px -50px; 
+    position:absolute;
+    left:50%;
+    bottom: 250px;
+}
+.reset-button {
+        font-family: 'Special Elite', cursive;
+        background-color: grey;
+        color: white;
+        border: none;
+        padding: 15px 32px;
+        margin: -20px -50px; 
+        position:absolute;
+        left:50%;
+        bottom: 250px;
+}
+
+button:hover {
+    background-color: white; 
+    color: black;
+}
