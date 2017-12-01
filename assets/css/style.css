@@ -127,3 +127,14 @@ button:hover {
     background-color: white; 
     color: black;
 }
+
+@media screen and (max-width: 980px){
+    body {
+        width: 900px;
+        background-size: 980px;
+    }
+    div {
+        width: 900px;
+    }
+
+}
